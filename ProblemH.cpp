@@ -2,8 +2,7 @@
 #include <cmath>
 using namespace std;
 
-int main()
-{
+int main() {
     float A, B;
 
     cin >> A >> B;
