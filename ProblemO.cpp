@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     long long A, B;
     char S;
     

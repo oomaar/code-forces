@@ -9,6 +9,7 @@ int main() {
     long double doubleNumber;
     
     cin >> number >> longNumber >> letter >> naturalNumber >> doubleNumber;
+    
     cout << number << endl << longNumber << endl << letter << endl << naturalNumber << endl << doubleNumber;
     
     return 0;
