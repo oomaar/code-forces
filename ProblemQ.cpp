@@ -16,8 +16,16 @@ int main()
         cout << "Q3" << endl;
     } else if (X < 0 && Y > 0) {
         cout << "Q2" << endl;
-    } else if (X == 0 || Y == 0) {
+    } else if (X == 0 && Y == 0) {
         cout << "Origem" << endl;
+    } else if  (X == 0 && Y > 0) {
+        cout << "Eixo Y" << endl;
+    } else if (X > 0 && Y == 0) {
+        cout << "Eixo X" << endl;
+    } else if  (X == 0 && Y < 0) {
+        cout << "Eixo Y" << endl;
+    } else if (X < 0 && Y == 0) {
+        cout << "Eixo X" << endl;
     }
 
     return 0;
